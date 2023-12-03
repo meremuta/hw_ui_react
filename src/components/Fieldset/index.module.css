@@ -1,0 +1,92 @@
+@import "C:/Users/Maria/Documents/hw_ui_react/styles/main.css";
+
+#usernameF{
+    border-width: 1px !important;
+    border-radius: 16px;
+    height: 61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0px !important;
+    padding-top: 5px !important;
+    padding-right: 0px !important;
+    padding-left: 10px !important;
+    color: var(--color-ye-green);
+    border-color: var(--color-ye-green) !important;
+}
+
+.usernameinp::placeholder{
+    color: var(--color-ye-green);
+}
+
+.usernameinp{
+
+    border: 0px;
+    padding: 0px;
+    width: 440px;
+    height: auto;
+    font: 400 var(--font-u1);
+    line-height: var(--lh-u1) ;
+}
+
+
+#emailF{
+    border-width: 1px !important;
+    border-radius: 16px;
+    height: 61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0px !important;
+    padding-top: 5px !important;
+    padding-right: 0px !important;
+    padding-left: 10px !important;
+    color: var(--color-dg-blue);
+    border-color: var(--color-dg-blue) !important;
+}
+
+
+
+.emailinp::placeholder{
+    color: var(--color-dg-blue);
+}
+
+.emailinp{
+    border: 0px;
+    padding: 0px;
+    width: 440px;
+    height: auto;
+    font: 400 var(--font-u1);
+    line-height: var(--lh-u1) ;
+}
+
+
+#passwordF{
+    border-width: 1px !important;
+    border-radius: 16px;
+    height: 61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0px !important;
+    padding-top: 5px !important;
+    padding-right: 0px !important;
+    padding-left: 10px !important;
+    color: var(--color-or-red);
+    border-color: var(--color-or-red) !important;
+}
+
+
+.passwordinp::placeholder{
+    color: var(--color-or-red);
+}
+
+.passwordinp{
+
+    border: 0px;
+    padding: 0px;
+    width: 440px;
+    height: auto;
+    font: 400 var(--font-u1);
+    line-height: var(--lh-u1) ;
+}

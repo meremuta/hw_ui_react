@@ -1,0 +1,13 @@
+@import "C:/Users/Maria/Documents/hw_ui_react/styles/main.css";
+
+.button{
+    width: auto;
+    height: 56px;
+    padding: 17px 24px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border: 0px;
+    border-radius: 32px;
+    font: 300 var(--font-u1);
+    line-height: var(--lh-u1) ;
+}

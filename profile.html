@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script type="module">
+        const response = await fetch("https://d5drjbclojcqrqtf0nd9.apigw.yandexcloud.net/hi?");
+        console.log(response);
+        const res = await response.text();
+        const greet = "Hello there, " + res + "! <br>Let's start our shopping, shall we?"
+        document.getElementById('usernameHi').innerHTML = greet;
+    </script>
+
+    <link rel="shortcut icon" href="assets/Vector.svg" />
+    <title>SOPA Profile</title>
+</head>
+<body>
+
+    <div id="root"></div>
+    <script type="module" src="/src/profile.jsx"></script>
+
+
+
+</body>
+</html>
