@@ -1,4 +1,56 @@
-@import "C:/Users/Maria/Documents/hw_ui_react/styles/main.css";
+:root{
+
+    --font-t1: bold 72px 'Noto Serif Lao', serif;
+    --font-t2: bold 66px 'Noto Serif Lao', serif;
+    --font-t3: bold 56px 'Noto Serif Lao', serif;
+    --font-t4: bold 48px 'Noto Serif Lao', serif;
+    --font-t5: bold 40px 'Noto Serif Lao', serif;
+    --font-t6: bold 36px 'Noto Serif Lao', serif;
+    --font-t7: bold 28px 'Noto Serif Lao', serif;
+    --font-t8: bold 24px 'Noto Serif Lao', serif;
+
+    --lh-t1: 80px;
+    --lh-t2: 74px;
+    --lh-t3: 64px;
+    --lh-t4: 56px;
+    --lh-t5: 46px;
+    --lh-t6: 40px;
+    --lh-t7: 32px;
+    --lh-t8: 28px;
+
+    --font-p1: 20px 'Poppins', sans-serif;
+    --font-p2: 18px 'Poppins', sans-serif;
+    --font-p3: 16px 'Poppins', sans-serif;
+    --font-p4: 14px 'Poppins', sans-serif;
+    --font-p5: 12px 'Poppins', sans-serif;
+
+    --lh-p1: 24px;
+    --lh-p2: 22px;
+    --lh-p3: 20px;
+    --lh-p4: 18px;
+    --lh-p5: 16px;
+
+    --font-u1: normal 16px 'Poppins', sans-serif;
+    --font-u2: normal 14px 'Poppins', sans-serif;
+    --font-u3: normal 12px 'Poppins', sans-serif;
+
+    --lh-u1: 22px;
+    --lh-u2: 18px;
+    --lh-u3: 16px;
+
+    --font-w-m: 500;
+    --font-w-sb: 700;
+
+    --color-white: #FFFFFF;
+    --color-black: #02021D;
+    --color-fr-green: #C1F651;
+    --color-ye-green: #81D376;
+    --color-grey300: #E3E5ED;
+    --color-dg-blue: #3184FF;
+    --color-or-red: #F14E2E;
+
+
+}
 
 .button{
     width: auto;
